@@ -17,13 +17,13 @@ void Display::printBoard(Board& board){
 }
 
 void Display::showTurn(Player* player){
-    std::cout << "Turn: " << player->getName() << std::endl;
+    std::cout << std::endl << "Turn: " << player->getName() << std::endl;
 }
 
 void Display::showWin(Player* winner){
-    std::cout << "Winner is " << winner->getName() << "!" << std::endl;
+    std::cout  << std::endl << "Winner is " << winner->getName() << "!" << std::endl;
 }
 
 void Display::showDraw(){
-    std::cout << "It is a draw!" << std::endl;
+    std::cout << std::endl << "It is a draw!" << std::endl;
 }
