@@ -1,3 +1,5 @@
+#ifndef HUMANPLAYER_H
+#define HUMANPLAYER_H
 #include "Player.h"
 
 class HumanPlayer : public Player {
@@ -5,3 +7,5 @@ class HumanPlayer : public Player {
     HumanPlayer(char symbol, std::string name);
     void makeMove(Board& board) override;
 };
+
+#endif

@@ -1,3 +1,5 @@
+#ifndef PLAYER_H
+#define PLAYER_H
 #include <string>
 #include "Board.h"
 
@@ -12,3 +14,5 @@ class Player{
         char getSymbol() const;
         std::string getName() const;
 };
+
+#endif

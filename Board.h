@@ -1,3 +1,6 @@
+#ifndef BOARD_H
+#define BOARD_H   
+
 class Board{
     private:
         char grid[3][3];
@@ -9,3 +12,5 @@ class Board{
         char getCell(int row, int col);
         void undoMove(int row, int col);
 };
+
+#endif

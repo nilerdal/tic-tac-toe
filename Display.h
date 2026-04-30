@@ -1,3 +1,5 @@
+#ifndef DISPLAY_H
+#define DISPLAY_H
 #include <string>
 #include "Board.h"
 #include "Player.h"
@@ -9,3 +11,5 @@ class Display{
         void showWin(Player* winner);
         void showDraw();
 };
+
+#endif

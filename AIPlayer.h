@@ -1,3 +1,5 @@
+#ifndef AIPLAYER_H
+#define AIPLAYER_H
 #include "Player.h"
 
 class AIPlayer : public Player {
@@ -10,3 +12,5 @@ class AIPlayer : public Player {
     void makeMove(Board& board) override;
     char getOppSymbol();
 };
+
+#endif
