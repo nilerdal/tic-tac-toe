@@ -24,6 +24,6 @@ void Display::showWin(Player* winner){
     std::cout << "Winner is " << winner->getName() << "!" << std::endl;
 }
 
-void Display::showDraw(bool isDraw){
+void Display::showDraw(){
     std::cout << "It is a draw!" << std::endl;
 }

@@ -7,5 +7,5 @@ class Display{
         void printBoard(Board& board);
         void showTurn(Player* player);
         void showWin(Player* winner);
-        void showDraw(bool isDraw);
+        void showDraw();
 };
