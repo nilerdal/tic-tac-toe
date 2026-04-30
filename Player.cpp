@@ -3,11 +3,11 @@
 Player::Player(char symbol, std::string name)
     : symbol{symbol}, name{name} {}
 
-char Player::getSymbol(){
+char Player::getSymbol() const{
     return symbol;
 }
 
-std::string Player::getName(){
+std::string Player::getName() const{
     return name;
 }
 

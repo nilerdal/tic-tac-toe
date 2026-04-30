@@ -9,6 +9,6 @@ class Player{
     public:
         Player(char symbol, std::string name);
         virtual void makeMove(Board& board) = 0;
-        char getSymbol();
-        std::string getName();
+        char getSymbol() const;
+        std::string getName() const;
 };
