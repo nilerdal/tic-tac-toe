@@ -6,7 +6,7 @@ class AIPlayer : public Player {
     int minimax(Board board, bool isMaximizing, int depth);
 
     public:
-    AIPlayer(char symbol, char oppSymbol, std::string name);
+    AIPlayer(char symbol, char oppSymbol);
     void makeMove(Board& board) override;
     char getOppSymbol();
 };

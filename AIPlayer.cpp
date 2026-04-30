@@ -1,7 +1,7 @@
 #include "AIPlayer.h"
 #include "Board.h"
 
-AIPlayer::AIPlayer(char symbol, char oppSymbol, std::string name)
+AIPlayer::AIPlayer(char symbol, char oppSymbol)
     : Player(symbol, "AI"), oppSymbol(oppSymbol){}
 
 char AIPlayer::getOppSymbol(){
